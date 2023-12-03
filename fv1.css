@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rajdhani:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=EB+Garamond&family=Rajdhani:wght@300;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'EB Garamond', serif;
+    font-family: 'Rajdhani', sans-serif;
+
+
+
+    
+}
+
+body {
+    margin: 1pc;
+    background-color: #eee;
+    color: black;
+
+}
+
+
+article {
+    margin: 1pc;
+    padding: 1pc;
+    display: flex;
+    flex-flow: column;
+    gap: .4pc;
+    border-radius: .4pc;
+    color: black;
+
+
+
+}
+
+@font-face {
+    font-family: Gloriance PU, serif;
+    src: url("./gloriance/Gloriance\ PU.otf") format("opentype");
+}
+
+/*@font-face {
+    font-family: GraublauWeb;
+    font-weight: bold;
+    src: url("path/GraublauWebBold.otf") format("opentype");
+}*/
+section {
+    height: 10pc;
+    width: 20pc;
+    display: flex;
+    flex-direction: column;
+    gap: .5pc;
+    border-radius: .4pc;
+    background-color: white;
+    padding: .5rem;
+}
+.s-1 {
+    border-left: .4pc solid;
+    border-left-color: rgb(24, 68, 37);
+}
+.s-2 {
+    position: relative;
+    left: 40%;
+    border-left: .4pc solid;
+    border-left-color: rgb(150, 9, 9);
+}
+
+#formid {
+    height: 5pc;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4pc;
+}
+
+input {
+    height: 2pc;
+    width: 40%;
+    border-radius: .4pc;
+    padding: .4pc;
+    border: none;
+}
+
+input[placeholder="Check your faith level..."] {
+    padding-left: 2pc;
+}
+
+button {
+    height: 2em;
+    width: 5rem;
+    background-color: rgb(180, 153, 101);
+    color: rgb(0, 0, 0);
+    border: none;
+}

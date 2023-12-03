@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;
+    margin: 1pc;
+    background-color: rgba(133, 250, 230, 0.185);
+    color: black;
+
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+article {
+    margin: 1pc;
+    padding: 1pc;
+    display: flex;
+    flex-flow: column;
+    gap: .4pc;
+    border-radius: .4pc;
+    color: black;
+
+
+
+}
+
+section {
+    height: 10pc;
+    width: 20pc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1pc;
+    border-radius: .4pc;
+    background-color: rgba(240, 248, 255, 0.521);
+}
+.s-1 {
+    background: radial-gradient(#fff, rgba(0, 0, 255, 0.849));
+    border-left: .4pc solid;
+    border-left-color: rgba(243, 17, 122, 0.678);
+}
+.s-2 {
+    position: relative;
+    left: 40%;
+    background: linear-gradient(180deg, white, rgba(82, 9, 82, 0.493));
+    border-left: .4pc solid;
+    border-left-color: rgb(198, 210, 30);
+}
+
+form {
+    height: 5pc;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4pc;
+}
+
+input {
+    height: 4pc;
+    width: 40%;
+    border-radius: 40pc;
+    padding: .4pc;
+    border: none;
+}
+
+input[placeholder="Check your faith level..."] {
+    padding-left: 4pc;
+}
+
+button {
+    height: 4em;
+    width: 4rem;
+    background-color: blue;
+    color: white;
+    border: none;
+}
